@@ -1,0 +1,129 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 1000px;
+}
+
+header{
+    background-image: url(https://static-algoritmika-org.ngcdn.ru/uploads/student/70493100/69f0c53a30e53.webp);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px 5px 10px;
+}
+
+.about{
+    background-color: #a68f7d;
+    width: 100%;
+    padding: 100px 50px 180px 100px;
+}
+
+.about div{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.containner{
+    margin: 0px auto 0px auto;
+    padding: 10px;
+}
+
+.assortment{
+    display: flex;
+    background-color: #f7f5f2;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.assortment_img img{
+    position: absolute;
+    width: 400px;
+    top: -30px;
+}
+
+.assortment_text{
+    color: black;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1300px;
+}
+
+.product{
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 5px 10px 2px #223c5033;
+    margin-right: 40px;
+    color: black;
+}
+
+.header-info a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer{
+    color: black;
+    background-color: #ead0bb;
+}
+
+
+.footer-img{
+    margin-left: 10px;
+}
+
+.footer-geg {
+    display: flex;
+    justify-content: center;
+}
+
+.hhhheee{
+    width: 400px;
+}
+
+nav a:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+}
+
+.menu p:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.header-info a:hover{
+    background-color: white;
+    opacity: 0.4;
+    color: rgb(0, 0, 0);
+}
